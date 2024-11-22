@@ -66,9 +66,11 @@ mode: 'no-cors',
 
 Email:
 ```js
+let email;
+
 chrome.identity.getProfileUserInfo(function(userInfo) {
-  const email = userInfo.email;
-}
+  email = userInfo.email;
+});
 ```
 
 Valid extension IDs:
