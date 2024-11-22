@@ -16,7 +16,7 @@ Content-Type: application/json;charset=UTF-8
 Email:
 ```js
 chrome.identity.getProfileUserInfo(function(userInfo) {
-  const email = userInfo.email
+  const email = userInfo.email;
 }
 ```
 
