@@ -27,7 +27,7 @@ All four of the extensions can be disabled using the same method
 3. In the "console" section paste in: `chrome.extension.getBackgroundPage().close();` and run it
 
 ## Just, Disable It
-If you deny any Bark extension the `management` permission, it will not report if you disable the extension,.,.
+If you deny the Bark Monitor extension the `management` permission, it will not report if you disable the extension,.,.
 - `management` is set as an optional permission, how stupid are they??
 
 ## Additional Notes
