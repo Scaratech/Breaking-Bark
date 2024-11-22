@@ -17,12 +17,12 @@ All four of the extensions can be disabled using the same method
 
 ### Chrome
 #### Monitor
-1. In your browser go to `extension://jcocgejjjlnfddlhpbecfapicaajdibb/manifest.json`
+1. In your browser go to `chrome-extension://jcocgejjjlnfddlhpbecfapicaajdibb/manifest.json`
 2. Open devtools (`ctrl shift i`)
 3. In the "console" section paste in: `chrome.extension.getBackgroundPage().close();` and run it
 
 #### Watchdog
-1. In your browser go to `extension://agknpiliocimoiokabdfecmgilemoich/manifest.json`
+1. In your browser go to `chromeextension://agknpiliocimoiokabdfecmgilemoich/manifest.json`
 2. Open devtools (`ctrl shift i`)
 3. In the "console" section paste in: `chrome.extension.getBackgroundPage().close();` and run it
 
