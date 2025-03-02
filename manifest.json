@@ -1,0 +1,13 @@
+{
+    "name": "Bark Extension",
+    "version": "1.0",
+    "manifest_version": 3,
+    "permissions": [
+        "identity",
+        "https://urls.bark.us/",
+        "https://www.bark.us/"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    }
+}
