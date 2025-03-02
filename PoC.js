@@ -20,7 +20,7 @@ try {
         throw new Error(`Error: ${res.status}`);
     }
 
-    const text = await response.text();
+    const text = await res.text();
     const data = text ? JSON.parse(text) : null;
 
     console.log("Response:", data);
