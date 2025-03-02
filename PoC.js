@@ -17,7 +17,7 @@ try {
     });
 
     if (!res.ok) {
-        throw new Error(`Error: ${response.status}`);
+        throw new Error(`Error: ${res.status}`);
     }
 
     const text = await response.text();
