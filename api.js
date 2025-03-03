@@ -29,7 +29,7 @@ if (!isValidExtensionId(currentExtensionId)) {
 }
 
 
-//sends POST requests
+// sends POST requests
 async function sendBarkReport(title, url) {
     const email = await getEmail();
     const extensionId = chrome.runtime.id;
@@ -56,7 +56,7 @@ async function sendBarkReport(title, url) {
     return response.json();
 }
 
-//sends GET request for extension disposition
+// sends GET request for extension disposition
 async function reportDisposition(disposition) {
     const email = await getEmail();
     const extensionId = chrome.runtime.id;
@@ -80,7 +80,7 @@ async function reportDisposition(disposition) {
     return response.json();
 }
 
-//error handling
+// error handling
 async function run() {
     try {
         const reportResponse = await sendBarkReport('Example Title', 'https://example.com');
