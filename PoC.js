@@ -1,5 +1,5 @@
 const headers = {
-    "X-Bark-Email": "tommy12@gmail.com",
+    "X-Bark-Email": "email@domain.com",
     "X-Bark-Extension": "jcocgejjjlnfddlhpbecfapicaajdibb",
     "Content-Type": "application/json;charset=UTF-8",
 };
